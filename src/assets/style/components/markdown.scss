@@ -1,0 +1,75 @@
+.markdown {
+    p, ul, ol {
+    }
+
+    ul li, ol li {
+    }
+
+    ul {
+    }
+
+    ol {
+    }
+
+    h2, h3, h4, h5, h6 {
+    }
+
+    h5, h6 {
+    }
+
+    a {
+
+        &:hover {
+        }
+    }
+
+    pre.shiki {
+    }
+
+    code.shiki {
+    }
+
+    .shiki-inline {
+    }
+
+    mark {
+    }
+
+    dl {
+        dt {
+            + dd {
+            }
+        }
+        dd {
+        }
+    }
+
+    blockquote {
+
+        p {
+        }
+    }
+
+    hr {
+    }
+}
+
+@screen sm {
+    .markdown {
+        blockquote {
+        }
+
+    }
+}
+
+.post-cover {
+    &::after {
+        content: '';
+        background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.5) 100%);
+    }
+
+    &.fullscreen::after {
+        background: rgba(0,0,0,.15);
+    }
+}
+

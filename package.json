@@ -24,10 +24,8 @@
     "@fortawesome/free-regular-svg-icons": ">=5.13.1",
     "@fortawesome/free-solid-svg-icons": ">=5.13.1",
     "@fortawesome/vue-fontawesome": ">=0.1.10",
-    "gridsome-plugin-sass-resources-loader": "0.0.3",
     "moment": ">=2.26.0",
-    "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.0",
-    "style-resources-loader": "^1.4.1"
+    "node-sass": "^4.0.0",
+    "sass-loader": "^7.0.3"
   }
 }

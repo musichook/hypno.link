@@ -1,7 +1,11 @@
 // Layout
 import DefaultLayout from '~/layouts/Default.vue'
+
 // Styles
-//import '~/assets/style/main.sass'
+import '~/assets/style/lib/ress.scss'
+import '~/assets/style/lib/chota.scss'
+import '~/assets/style/main.sass'
+import '~/assets/style/components/markdown.scss'
 
 
 export default function (Vue, { head }) {
@@ -9,8 +13,6 @@ export default function (Vue, { head }) {
 
   head.htmlAttrs = { lang: 'en', class: '' }
   head.bodyAttrs = { class: '' }
-
-
 
   head.link.push({
     rel: 'stylesheet',
